@@ -125,11 +125,11 @@ columns_selected = cor.nlargest(n_features, 'SalePrice')['SalePrice'].index
 
 #=============================================================================
 #plot to see correlation of the features
-plt.figure(figsize=(16,8))
-cm = np.corrcoef(train[columns_selected].values.T)
-sns.set(font_scale=1.0)
-hm = sns.heatmap(cm, cbar=True, annot=True, square=True, fmt='.2f', annot_kws={'size': 10}, yticklabels=columns_selected.values, xticklabels=columns_selected.values)
-plt.show()
+#plt.figure(figsize=(16,8))
+#cm = np.corrcoef(train[columns_selected].values.T)
+#sns.set(font_scale=1.0)
+#hm = sns.heatmap(cm, cbar=True, annot=True, square=True, fmt='.2f', annot_kws={'size': 10}, yticklabels=columns_selected.values, xticklabels=columns_selected.values)
+#plt.show()
 #=============================================================================
 
 #Change the train data to the selected featuers only
