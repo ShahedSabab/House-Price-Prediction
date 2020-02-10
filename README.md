@@ -19,7 +19,12 @@ XGBoost<br/>
 Check the feature_correlation.png and feature_selection_using_correlation.png
 
 # Performace:
-Check performance.csv for details. Also check performance_r2.png and performance_rmse for comparisons.
+Check performance.csv for details. 
+
+![R squared](performance_r2.png)
+![RMSE](performance_rmse.png)
+
+
 
 # Scripts:
 Check housePricePredict.py
