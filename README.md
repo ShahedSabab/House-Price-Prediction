@@ -1,5 +1,5 @@
 # House-Price-Prediction
-Predict house price using advanced regression techniques.
+The objecive of this project is to predict house price from different features.
 
 # Data Set Info: 
 Check train.csv<br/>
